@@ -3,7 +3,7 @@ def bank():
     ar_2 = int(input("Period: "))
     percent = 1.1
     sum = ar_1 * percent ** ar_2
-    print(round(sum))
+    print("Final sum: ", round(sum, 2))
 
 
 bank()
