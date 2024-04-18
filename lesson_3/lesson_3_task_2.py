@@ -10,4 +10,4 @@ catalog = [
 
 for smartphone in catalog:
     print(smartphone.brand, "-",
-          smartphone.model + ".", "+" + smartphone.number)
+          smartphone.model + ".", "+" + smartphone.phone_number)
